@@ -11,7 +11,7 @@ class anarchystacks(SDKMod):
     Description: str = (
         "Lets you keep a set percentage of your Anarchy on Savequit."
     )
-    Version: str = "0.0.9"
+    Version: str = "0.1.0"
     Types: ModTypes = ModTypes.Utility
     SupportedGames: Game = Game.BL2
     SaveEnabledState: EnabledSaveType = EnabledSaveType.LoadWithSettings
@@ -20,7 +20,7 @@ class anarchystacks(SDKMod):
     def __init__(self):
         self.PercentSlider = Options.Slider(
         Caption = "Percent",
-        Description = "Determinants the percent of Anarchy Stacks you keep",
+        Description = "Determines the percent of Anarchy Stacks you keep",
         StartingValue = 50,
         MinValue = 0,
         MaxValue = 100,
