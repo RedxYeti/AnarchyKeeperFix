@@ -9,10 +9,11 @@ from unrealsdk import FindObject, Log, UObject, GetEngine
 class anarchystacks(SDKMod):
     # need to add the option to keep anarchy when dying
     #  maybe not dont know if that would be to overpowered 
+    # TODO add Co-OP
     Name: str = "KeepAnarchy"
     Author: str = "Sampletext282" # i also want to apoligize for my awful code :)
     Description: str = ("Lets you keep a self set percentage of your Anarchy stacks on Savequit. Does not work in Co-op")
-    Version: str = "0.1.2"
+    Version: str = "0.9"
     Types: ModTypes = ModTypes.Utility
     SupportedGames: Game = Game.BL2
     SaveEnabledState: EnabledSaveType = EnabledSaveType.LoadWithSettings
