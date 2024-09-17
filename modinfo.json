@@ -1,0 +1,22 @@
+{
+  "mods": [
+    {
+      "name": "Keep Anarchy",
+      "authors": "Sampletext282",
+      "description": [
+          "Let's you keep your Anarchy stacks.\n",
+          "By default you will keep 50% of your stacks, this can be changed in the mods options.\n",
+          "Only works in Coop on the Host!"
+      ],
+      "tagline": "Keep your Anarchy when leaving Pandora!",
+      "types": ["Utility"],
+      "supports": ["BL2"],
+      "issues": "https://github.com/Sampletext282/bl2-mods/issues",
+      "source": "https://github.com/Sampletext282/bl2-mods",
+      "latest": "0.9",
+      "versions": {
+        "0.9": "https://github.com/Sampletext282/bl2-mods/blob/main/KeepAnarchy/KeepAnarchy.zip?raw=true",
+      }
+    }
+  ]
+}
