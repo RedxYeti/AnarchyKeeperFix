@@ -6,7 +6,7 @@
       "description": [
           "Let's you keep your Anarchy stacks.\n",
           "By default you will keep 50% of your stacks, this can be changed in the mods options.\n",
-          "Only works in Coop on the Host!"
+          "Only works on Host in Coop!"
       ],
       "tagline": "Keep your Anarchy when leaving Pandora!",
       "types": ["Utility"],
